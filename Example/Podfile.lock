@@ -1,15 +1,33 @@
 PODS:
-  - RxTapAction (0.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxGesture (2.2.0):
+    - RxCocoa (~> 4.5)
+    - RxSwift (~> 4.5)
+  - RxSwift (4.5.0)
+  - RxTapAction (0.1.0):
+    - RxCocoa
+    - RxGesture
+    - RxSwift
 
 DEPENDENCIES:
   - RxTapAction (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxGesture
+    - RxSwift
 
 EXTERNAL SOURCES:
   RxTapAction:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxTapAction: 72d52798cd2759f31f38cb1dec00d3c10cf0167f
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxTapAction: bdd8f49d8530e1623128f6488e62d415874482ed
 
 PODFILE CHECKSUM: 6dee7de55e0ac82b31087e35d0459f3804c59d39
 
