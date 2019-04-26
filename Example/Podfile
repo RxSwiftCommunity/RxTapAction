@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxTapAction_Example' do
+  pod 'RxTapAction', :path => '../'
+
+  target 'RxTapAction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
