@@ -1,0 +1,16 @@
+PODS:
+  - RxTapAction (0.1.0)
+
+DEPENDENCIES:
+  - RxTapAction (from `../`)
+
+EXTERNAL SOURCES:
+  RxTapAction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxTapAction: 72d52798cd2759f31f38cb1dec00d3c10cf0167f
+
+PODFILE CHECKSUM: 6dee7de55e0ac82b31087e35d0459f3804c59d39
+
+COCOAPODS: 1.6.1
