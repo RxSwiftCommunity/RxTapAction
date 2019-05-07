@@ -1,6 +1,6 @@
 # RxTapAction
 
-[![CI Status](https://img.shields.io/travis/lm2343635/RxTapAction.svg?style=flat)](https://travis-ci.org/lm2343635/RxTapAction)
+[![CI Status](https://img.shields.io/travis/RxSwiftCommunity/RxTapAction.svg?style=flat)](https://travis-ci.org/lm2343635/RxTapAction)
 [![Version](https://img.shields.io/cocoapods/v/RxTapAction.svg?style=flat)](https://cocoapods.org/pods/RxTapAction)
 [![License](https://img.shields.io/cocoapods/l/RxTapAction.svg?style=flat)](https://cocoapods.org/pods/RxTapAction)
 [![Platform](https://img.shields.io/cocoapods/p/RxTapAction.svg?style=flat)](https://cocoapods.org/pods/RxTapAction)
