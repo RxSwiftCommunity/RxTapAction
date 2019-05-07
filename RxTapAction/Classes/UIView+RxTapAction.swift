@@ -10,17 +10,18 @@ import RxCocoa
 import RxGesture
 import RxSwift
 
-public extension Reactive where Base: UIView {
-    typealias ButtonLikeAction = (_ baseView: UIView, _ tapped: Bool) -> Void
+extension Reactive where Base: UIView {
     
-    enum ButtonLikeActionType {
+    public typealias ButtonLikeAction = (_ baseView: UIView, _ tapped: Bool) -> Void
+    
+    public enum ButtonLikeActionType {
         case darken
         case lighten
         case shrink
         case custom(action: ButtonLikeAction)
     }
     
-    func addButtonLikeAction(_ type: ButtonLikeActionType = .darken, exceptionalViews: [UIView] = []) -> Disposable {
+    public func addButtonLikeAction(_ type: ButtonLikeActionType = .darken, exceptionalViews: [UIView] = []) -> Disposable {
         switch type {
         case .darken: return addCoverActionGesture(coverView: kSharedDarkView, exceptionalViews: exceptionalViews)
         case .lighten: return addCoverActionGesture(coverView: kSharedLightView, exceptionalViews: exceptionalViews)

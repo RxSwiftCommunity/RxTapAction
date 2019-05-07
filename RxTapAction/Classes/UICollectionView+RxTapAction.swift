@@ -15,12 +15,13 @@ public extension UICollectionView {
     }
 }
 
-public extension Reactive where Base: UICollectionView {
-    func highlightAction(_ highlightActionType: UICollectionView.HighlightActionType) -> Disposable {
+extension Reactive where Base: UICollectionView {
+    
+    public func highlightAction(_ highlightActionType: UICollectionView.HighlightActionType) -> Disposable {
         return highlightAction { _ in highlightActionType }
     }
     
-    func highlightAction(_ highlightActionType: @escaping ((IndexPath) -> UICollectionView.HighlightActionType)) -> Disposable {
+    public func highlightAction(_ highlightActionType: @escaping ((IndexPath) -> UICollectionView.HighlightActionType)) -> Disposable {
         var disposables = [Disposable]()
         disposables += [itemHighlighted.bind { indexPath in
             switch highlightActionType(indexPath) {
@@ -40,9 +41,11 @@ public extension Reactive where Base: UICollectionView {
         ]
         return Disposables.create(disposables)
     }
+    
 }
 
 private extension UICollectionView {
+    
     func add(_ coverView: UIView, indexPath: IndexPath) {
         guard let cell = cellForItem(at: indexPath), coverView.superview !== cell else {
             return
@@ -83,6 +86,7 @@ private extension UICollectionView {
             cell.transform = standardTransform
         })
     }
+    
 }
 
 private let kSharedDarkView: UIView = {

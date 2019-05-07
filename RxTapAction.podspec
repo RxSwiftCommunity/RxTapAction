@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxTapAction'
-  s.version          = '0.1.0'
-  s.summary          = 'ReactiveExtensions for adding tap action gesture.'
+  s.version          = '0.1'
+  s.summary          = 'Reactive extensions for adding tap action gesture.'
 
   s.description      = <<-DESC
-ReactiveExtensions for adding tap action gesture to UIView or UICollectionView.
+Reactive extensions for adding tap action gesture to UIView or UICollectionView.
                        DESC
 
-  s.homepage         = 'https://github.com/lm2343635/RxTapAction'
+  s.homepage         = 'https://github.com/RxSwiftCommunity/RxTapAction'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lm2343635' => 'lm2343635@126.com' }
-  s.source           = { :git => 'https://github.com/lm2343635/RxTapAction.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RxSwiftCommunity/RxTapAction.git', :tag => s.version.to_s }
 
   s.requires_arc     = true
   s.swift_version    = '5.0'
