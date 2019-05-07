@@ -21,7 +21,6 @@ Reactive extensions for adding tap action gesture to UIView or UICollectionView.
   s.source           = { :git => 'https://github.com/RxSwiftCommunity/RxTapAction.git', :tag => s.version.to_s }
 
   s.requires_arc     = true
-  s.swift_version    = '5.0'
 
   s.source_files     = 'RxTapAction/Classes/**/*'
   

@@ -15,7 +15,7 @@ PODS:
     - RxCocoa (~> 4.5)
     - RxSwift (~> 4.5)
   - RxSwift (4.5.0)
-  - RxTapAction (0.1.0):
+  - RxTapAction (0.1):
     - RxCocoa
     - RxGesture
     - RxSwift
@@ -48,9 +48,9 @@ SPEC CHECKSUMS:
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
-  RxTapAction: bdd8f49d8530e1623128f6488e62d415874482ed
+  RxTapAction: 303a34193a8fd97db6fa9b2036b37de922506870
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: d740415503e4ba8a40ff09750f2378a977ebff5a
+PODFILE CHECKSUM: bfc645e387900e09aa166bd9bd08dcab892cd5be
 
 COCOAPODS: 1.6.1
