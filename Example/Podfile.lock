@@ -1,6 +1,16 @@
 PODS:
+  - Differentiator (3.1.0)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxGesture (2.2.0):
     - RxCocoa (~> 4.5)
     - RxSwift (~> 4.5)
@@ -9,26 +19,38 @@ PODS:
     - RxCocoa
     - RxGesture
     - RxSwift
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - Reusable
+  - RxDataSources
   - RxTapAction (from `../`)
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Differentiator
+    - Reusable
     - RxCocoa
+    - RxDataSources
     - RxGesture
     - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   RxTapAction:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   RxTapAction: bdd8f49d8530e1623128f6488e62d415874482ed
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 6dee7de55e0ac82b31087e35d0459f3804c59d39
+PODFILE CHECKSUM: d740415503e4ba8a40ff09750f2378a977ebff5a
 
 COCOAPODS: 1.6.1

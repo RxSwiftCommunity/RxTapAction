@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'RxTapAction_Example' do
   pod 'RxTapAction', :path => '../'
+  pod 'Reusable'
+  pod 'RxDataSources'
+  pod 'SnapKit'
 
   target 'RxTapAction_Tests' do
     inherit! :search_paths
