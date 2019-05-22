@@ -22,7 +22,7 @@ PODS:
     - RxCocoa (~> 5)
     - RxGesture (~> 3)
     - RxSwift (~> 5)
-  - SnapKit (4.2.0)
+  - SnapKit (5.0.0)
 
 DEPENDENCIES:
   - Reusable
@@ -54,8 +54,8 @@ SPEC CHECKSUMS:
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   RxTapAction: 97d911ae757d4e6fae8e0449cda300629bcdef2f
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
-PODFILE CHECKSUM: bfc645e387900e09aa166bd9bd08dcab892cd5be
+PODFILE CHECKSUM: 8dd1f0c72adb906bfc70c703ca376a406d46b0b2
 
 COCOAPODS: 1.6.1
