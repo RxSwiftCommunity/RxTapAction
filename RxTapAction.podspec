@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxTapAction'
-  s.version          = '0.1'
+  s.version          = '0.1.1'
   s.summary          = 'Reactive extensions for adding tap action gesture.'
 
   s.description      = <<-DESC
@@ -24,9 +24,9 @@ Reactive extensions for adding tap action gesture to UIView or UICollectionView.
 
   s.source_files     = 'RxTapAction/Classes/**/*'
   
-  s.dependency 'RxSwift'
-  s.dependency 'RxCocoa'
-  s.dependency 'RxGesture'
+  s.dependency 'RxSwift', '~> 5'
+  s.dependency 'RxCocoa', '~> 5'
+  s.dependency 'RxGesture', '~> 3'
 
   s.ios.deployment_target = '9.0'
 end

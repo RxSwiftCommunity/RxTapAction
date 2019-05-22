@@ -1,24 +1,27 @@
 PODS:
-  - Differentiator (3.1.0)
-  - Reusable (4.0.5):
-    - Reusable/Storyboard (= 4.0.5)
-    - Reusable/View (= 4.0.5)
-  - Reusable/Storyboard (4.0.5)
-  - Reusable/View (4.0.5)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxDataSources (3.1.0):
-    - Differentiator (~> 3.0)
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
-  - RxGesture (2.2.0):
-    - RxCocoa (~> 4.5)
-    - RxSwift (~> 4.5)
-  - RxSwift (4.5.0)
-  - RxTapAction (0.1):
-    - RxCocoa
-    - RxGesture
-    - RxSwift
+  - Differentiator (4.0.1)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - RxTapAction (0.1.1):
+    - RxCocoa (~> 5)
+    - RxGesture (~> 3)
+    - RxSwift (~> 5)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
@@ -34,6 +37,7 @@ SPEC REPOS:
     - RxCocoa
     - RxDataSources
     - RxGesture
+    - RxRelay
     - RxSwift
     - SnapKit
 
@@ -42,13 +46,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
-  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
-  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
-  RxTapAction: 303a34193a8fd97db6fa9b2036b37de922506870
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxTapAction: 97d911ae757d4e6fae8e0449cda300629bcdef2f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: bfc645e387900e09aa166bd9bd08dcab892cd5be
